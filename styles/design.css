@@ -1,7 +1,7 @@
 /* common shared styles */
 body {
     font-family: 'Open Sans', sans-serif;
-    
+    font-family: 'Merriweather', serif;
 }
 .header{
     height: 700px;
@@ -14,21 +14,26 @@ body {
     margin: 70px; 
 }
 
-#party{
-    font-size: 100px;
-    margin: 70px 150px 70px 150px;
-    color: white;
-    text-align: center;
-}
 .happy{ 
     font-size: 30px;
-    padding: 110px 150px 10px 150px;
+    padding: 160px 150px 0px 150px;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#party{
+    font-size: 100px;
+    margin: 50px 150px 70px 150px;
     color: white;
     text-align: center;
 }
+
 .second{
     text-align: center;
 }
+
+    
 #discount{
         font-size: 70px;
         /* font-size: bold; */
@@ -37,10 +42,17 @@ body {
 #deal{
         font-size: 25px;
         color: red;
+        text-align: center;
 }
 #category{
         font-size: 40px;
         color: black;
+        text-align: center;
+        margin-top: -35px;
+}
+.happy-image{
+    display: flex;
+    justify-content: center;
 }
 /* #midnight{
     background-image: url("../resources/Vectorrr.png");
@@ -53,14 +65,13 @@ body {
 
 /* } */
 .banner{
-    padding: 10px 10px 50px 150px;
     background-image: url("../resources/Vectorrr.png");
+    padding: 10px 10px 50px 150px;
     background-repeat: no-repeat;
     height: 700px;
     background-position: center;
     background-size: 100%;
-    margin: 70px;
-    background-image: pass through;
+    margin: 200px 70px 150px 70px;
     display: flex;
 }
 #midnight{
@@ -77,23 +88,73 @@ body {
 .year{
     display: flex;
     justify-content: space-between;
-    /* padding: 20px 50px 50px 50px; */
 }
+    /* padding: 20px 50px 50px 50px; */
+
 .yearD{
     width: 300px;
     margin-top: 100px;
-    margin-right: 100px;
+    margin-right: 150px;
+    
+}
+
+.fourth{
+    margin: 200px 70px 150px 70px; 
 }
 .portfolio{
     color: red;
     text-align: left;
 }
-.pics{
+
+.details{
+    text-align: justify;
+}
+.pics-1{
     display: flex;
     flex-direction: row;
     gap: 5px;
     justify-content: center;
+    /* margin-right: -40px;   */
 
+}
+.pics-2{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+}
+
+.fifth{
+    background-color:rgb(255, 230, 230);
+    padding: 100px;
+    height: 700px;
+    background-position: center;
+    background-size: 100%;
+    margin: 100px 70px 150px 70px;
+    display: flex;
+    display: flex; 
+    justify-content: center; 
+    
+}
+
+.sixth{
+    }
+#mail{
+ width: 200px;   
+ height: 200px;
+ padding-left: 500px;
+}
+#subs{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 400px;
+}
+.newsltr{
+    text-align: center;
+}
+
+.forms{
+    
 }
 
     
